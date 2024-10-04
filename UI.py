@@ -63,7 +63,7 @@ class FileSharingApp(QWidget):
         self.setLayout(main_layout)
 
         # Initialize Cohere client
-        self.cohere_api_key = "eEWivonREXwcGxJiiRfiuOroHlTei6EmSar5LEEU"
+        self.cohere_api_key = "apikeyhere"
         self.co = cohere.Client(self.cohere_api_key)
 
     def init_background(self):
